@@ -2,18 +2,24 @@ package com.capgemini.healthcare.test;
 
 import static org.junit.Assert.*;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class HealthCareTest {
+import com.capgemini.healthcare.service.ServiceLayer;
+import com.capgemini.healthcare.service.ServiceLayerImpl;
 
-	/*
-	 * @Test public void test() { fail("Not yet implemented"); }
-	 */
+public class HealthCareTest {
+	
+static ServiceLayer serviceObject;
+@BeforeClass
+public static void setUp() {
+	serviceObject = new ServiceLayerImpl();
+}
 	@Test
 	public void testValidateName() {
-		fail("Not yet implemented");
+		
 	}
-
+ 
 	@Test
 	public void testValidatePassword() {
 		fail("Not yet implemented");
@@ -28,6 +34,5 @@ public class HealthCareTest {
 	public void testValidateemail() {
 		fail("Not yet implemented");
 	}
-
 
 }
