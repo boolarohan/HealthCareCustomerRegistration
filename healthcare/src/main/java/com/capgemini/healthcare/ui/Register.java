@@ -110,7 +110,7 @@ public class Register {
 		long contactno = sc.nextLong();
 		if (service.validateNum(Long.toString(contactno))) {
 			u.setContactNo(contactno);
-			System.out.println("setted Successfully");
+			System.out.println("Validated Successfully");
 		} else {
 			System.out.println("Invalid Number");
 		}

@@ -85,6 +85,7 @@ public class ServiceLayerImpl implements ServiceLayer {
 	else
 	  return false;
 	}
+	
 	  /*public void downloadAppointmentService(){
 	 System.out.println("-----------------");
 	 userdao.download();
