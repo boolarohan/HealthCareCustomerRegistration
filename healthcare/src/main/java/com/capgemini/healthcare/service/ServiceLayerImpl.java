@@ -15,37 +15,26 @@ import com.capgemini.healthcare.dto.User;
 public class ServiceLayerImpl implements ServiceLayer {
 	UserDao userdao=new UserDaoImpl();
 
-	public boolean addCenter(ArrayList<DiagnosticCenter> center) {
-	// TODO Auto-generated method stub
-	return false;
-	}
-
-	public boolean removeCenter(ArrayList<DiagnosticCenter> center) {
-	// TODO Auto-generated method stub
-	return false;
-	}
-
-	public String addTest(ArrayList<Test> test) {
-	// TODO Auto-generated method stub
-	return null;
-	}
-
-	public boolean removeTest(ArrayList<Test> test) {
-	// TODO Auto-generated method stub
-	return false;
-	}
-
-	public boolean approveAppointment() {
-	// TODO Auto-generated method stub
-	return false;
-	}
-
-	public String makeAppointment(ArrayList<User> user, ArrayList<DiagnosticCenter> center, ArrayList<Test> test,
-	List<Date> datetime) {
-	// TODO Auto-generated method stub
-	return null;
-	}
-
+	/*
+	 * public boolean addCenter(ArrayList<DiagnosticCenter> center) { // TODO
+	 * Auto-generated method stub return false; }
+	 * 
+	 * public boolean removeCenter(ArrayList<DiagnosticCenter> center) { // TODO
+	 * Auto-generated method stub return false; }
+	 * 
+	 * public String addTest(ArrayList<Test> test) { // TODO Auto-generated method
+	 * stub return null; }
+	 * 
+	 * public boolean removeTest(ArrayList<Test> test) { // TODO Auto-generated
+	 * method stub return false; }
+	 * 
+	 * public boolean approveAppointment() { // TODO Auto-generated method stub
+	 * return false; }
+	 * 
+	 * public String makeAppointment(ArrayList<User> user,
+	 * ArrayList<DiagnosticCenter> center, ArrayList<Test> test, List<Date>
+	 * datetime) { // TODO Auto-generated method stub return null; }
+	 */
 	public String register(List<User> user) {
 
 	return null;

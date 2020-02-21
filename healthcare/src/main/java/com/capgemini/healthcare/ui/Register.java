@@ -66,14 +66,14 @@ public class Register {
 
 	}
 
-	private static void downloadAppointment() {
-		// TODO Auto-generated method stub
-
-	}
-
-	private static void login() {
-		// TODO Auto-generated method stub
-
+	/*
+	 * private static void downloadAppointment() { // TODO Auto-generated method
+	 * stub
+	 * 
+	 * }
+	 * 
+	 * private static void login() { // TODO Auto-generated method stub
+	 */
 	}
 
 	public static void register() {
@@ -134,7 +134,7 @@ public class Register {
 		// System.out.println("......................");
 		// System.out.println(userlist);
 		// System.out.println("......................");
-		login();
+		//login();
 
 	}
 
