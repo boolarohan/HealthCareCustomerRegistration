@@ -1,5 +1,7 @@
 package com.capgemini.healthcare.ui;
-
+/* This module is about customer registration in the UI layer and linked 
+ * to which module appointment module and integrates with the Center Registration
+ * and linked to test */
 import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
@@ -9,11 +11,11 @@ import com.capgemini.healthcare.service.ServiceLayer;
 import com.capgemini.healthcare.service.ServiceLayerImpl;
 
 public class Register {
-	static HashMap<String, String> adminlist = new HashMap<String, String>();
+	//static HashMap<String, String> adminlist = new HashMap<String, String>();
 	static HashMap<String, User> userlist = new HashMap<String, User>();
 
 	public Register() {
-		addSomeAdminDetails();
+	//	addSomeAdminDetails();
 		addSomeUser();
 	}
 
@@ -25,13 +27,13 @@ public class Register {
 		userlist.put(u2.getUserName(), u2);
 	}
 
-	public static void addSomeAdminDetails() {
+	/*public static void addSomeAdminDetails() {
 		adminlist.put("Nagireddymani", "11111");
 		adminlist.put("eppakayala", "22222");
 		adminlist.put("Ravali2420", "33333");
 		adminlist.put("Ashritha3", "4444");
 
-	}
+	}*/
 
 	public static void main(String[] args) throws Exception {
 		ServiceLayerImpl service = new ServiceLayerImpl();
