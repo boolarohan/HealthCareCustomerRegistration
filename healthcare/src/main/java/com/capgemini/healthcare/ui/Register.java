@@ -66,15 +66,15 @@ public class Register {
 
 	}
 
-	/*
-	 * private static void downloadAppointment() { // TODO Auto-generated method
-	 * stub
-	 * 
-	 * }
-	 * 
-	 * private static void login() { // TODO Auto-generated method stub
-	 */
-	}
+	
+	 /* private static void downloadAppointment() { // TODO Auto-generated method
+	 
+	  
+	  }
+	  
+	  private static void login() { // TODO Auto-generated method stub
+	 
+	}*/
 
 	public static void register() {
 		ServiceLayer service = new ServiceLayerImpl();

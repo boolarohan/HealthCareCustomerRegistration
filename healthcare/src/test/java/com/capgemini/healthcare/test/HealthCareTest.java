@@ -17,22 +17,30 @@ public static void setUp() {
 }
 	@Test
 	public void testValidateName() {
+		boolean flag=serviceObject.validateName("ROHAN");
+		assertEquals(true,flag);
+				
 		
 	}
  
 	@Test
 	public void testValidatePassword() {
-		fail("Not yet implemented");
+
+			boolean flag=serviceObject.validatePassword("123$123");
+			assertEquals(true,flag);
 	}
 
 	@Test
 	public void testValidateNum() {
-		fail("Not yet implemented");
+		
+			boolean flag=serviceObject.validateNum("7893732190");
+			assertEquals(true,flag);
 	}
 
 	@Test
 	public void testValidateemail() {
-		fail("Not yet implemented");
+			boolean flag=serviceObject.validateemail("rohan@gmail.com");
+			assertEquals(true,flag);
 	}
 
 }
